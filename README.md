@@ -1,0 +1,2 @@
+# bachelors engine
+This is a game engine/framework written for my bachelors thesis. It's not really meant to be used by anyone else, but if you want to take a look at how it works or learn something from it, feel free to do so!
