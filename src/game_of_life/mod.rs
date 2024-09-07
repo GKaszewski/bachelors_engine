@@ -370,7 +370,11 @@ impl GridToggleSystem {
 }
 
 pub fn run() {
-    let (mut rl, thread) = raylib::init().size(800, 600).title("Game of Life").build();
+    let (mut rl, thread) = raylib::init()
+        .size(800, 600)
+        .title("Game of Life")
+        .vsync()
+        .build();
 
     let width = 80;
     let height = 80;

@@ -1,4 +1,5 @@
 mod engine;
+mod evolution;
 mod game_of_life;
 
 fn main() {
